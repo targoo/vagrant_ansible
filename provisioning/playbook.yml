@@ -1,0 +1,12 @@
+# Ansible playbook for a Drupal LAMP server.
+#
+# @author David Calcus (2014).
+
+- hosts: drupal
+  gather_facts: yes
+
+#  vars_files:
+#    - vars/main.yml
+
+  roles:
+    - ansible-role-apache

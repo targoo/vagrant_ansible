@@ -1,0 +1,10 @@
+# from galaxy
+#- src: geerlingguy.mysql
+#- src: geerlingguy.apache
+#- src: geerlingguy.php
+#- src: geerlingguy.php-mysql
+
+# from github, overriding the name and specifying a specific tag
+- src: https://github.com/targoo/ansible-role-apache
+  version: master
+  name: apache
